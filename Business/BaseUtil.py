@@ -5,8 +5,8 @@ class BasePage(object):
     def __init__(self, driver):
         self.driver = driver
 
-    def by_id(self, id):
-        return self.driver.find_element_by_id(id)
+    def by_id(self, id_):
+        return self.driver.find_element_by_id(id_)
 
     def by_name(self, name):
         return self.driver.find_element_by_name(name)
