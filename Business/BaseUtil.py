@@ -29,5 +29,3 @@ class BasePage(object):
     def by_css(self, css):
         return self.driver.find_element_by_css_selector(css)
 
-    def get_title(self):
-        return self.driver.title
